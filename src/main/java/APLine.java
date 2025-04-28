@@ -7,10 +7,10 @@ public class APLine
     y = b;
     ca = c;
   }
-  pubilic douuble getSlope(){
+  public double getSlope(){
     return -(double)x/y;
   }
   public boolean isOnLine(int x1, int y1){
-    return x*x1 + y*y1 + c ==0;
+    return x*x1 + y*y1 + c == 0;
   }
 }
